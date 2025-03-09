@@ -12,10 +12,14 @@ Q러닝은 **가치를 기반(Value-based)**으로 행동을 선택하는 **모�
 
 
   - \( Q(s, a) \) : 현재 상태 \( s \)에서 행동 \( a \)를 했을 때의 Q-값
-  - \( r \) : 현재 행동에 대한 보상
-  - \( \gamma \) : 할인율 (future reward의 중요도 조절)
-  - \( \max Q(s', a') \) : 다음 상태 \( s' \)에서 가능한 최대 Q-값
-  - \( \alpha \) : 학습률
+  - \(![image](https://github.com/user-attachments/assets/34f42c1d-bd47-46d1-a996-f35e72812510)
+) : 현재 행동에 대한 보상
+  - \(![image](https://github.com/user-attachments/assets/a1ff7b91-4f2a-4482-8c5c-d10c3c9a5f1e)
+) : 할인율 (future reward의 중요도 조절)
+  - \(![image](https://github.com/user-attachments/assets/72bcfcb7-247e-412f-bfdf-949c804b66ea)
+) : 다음 상태 \( s' \)에서 가능한 최대 Q-값
+  - \( ![image](https://github.com/user-attachments/assets/fea4a5e0-bef3-4947-a809-56966839f3e7)
+) : 학습률
 
 ### 🔹 Q러닝의 과정
 1. **초기화**: Q-테이블을 0 또는 랜덤 값으로 설정
