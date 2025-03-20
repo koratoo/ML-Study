@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/3848e52f-079c-4c2a-9fa2-f7c841ac3247)
+
 빅데이터에서 **Sqoop (SQL to Hadoop)** 은 **Hadoop과 관계형 데이터베이스(RDBMS) 간의 데이터 전송을 수행하는 도구**야.
 
 ---
@@ -69,3 +71,6 @@
 - **증분 로드 기능으로 실시간 데이터 동기화 가능**
 
 이제 Hadoop을 사용할 때 관계형 DB와 데이터를 주고받을 일이 있으면 Sqoop을 활용하면 돼! 🚀
+
+
+
